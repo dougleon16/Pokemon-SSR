@@ -8,7 +8,6 @@ import {
 import { Pokemon } from '../../pokemons/interfaces';
 import { PokemonsService } from '../../pokemons/services/pokemons.service';
 import { ActivatedRoute } from '@angular/router';
-import { toSignal } from '@angular/core/rxjs-interop';
 import { tap } from 'rxjs';
 import { Title, Meta } from '@angular/platform-browser';
 
